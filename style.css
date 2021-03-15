@@ -14,6 +14,7 @@ a:active {
 }
 body {
   margin: 0 5% auto 5%;
+  max-width: 50rem;
   font-size: 1.25rem;
   font-family: serif;
   background-color: #f3f4f2;
@@ -28,9 +29,43 @@ code {
   font-family: sans-serif;
   color: #191610;
 }
+figure {
+  display: inline-block;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+.floatright {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+  width: 40%;
+  max-width: 340px;
+  height: auto;
+}
+.floatright > img {
+  width: 100%;
+  height: auto;
+}
 footer {
   margin-top: 3rem;
   border-top: 1px solid black;
+}
+.fullwidth {
+  width: 100%;
+  height: auto;
+}
+.half {
+  width: 45%;
+  height: auto;
+  margin: 1rem;
+}
+.half > img {
+  width: 100%;
+  height: auto;
+}
+img {
+  border: 1px darkgray solid;
 }
 p.date {
   margin-bottom: 0;
