@@ -29,6 +29,12 @@ code {
   font-family: sans-serif;
   color: #191610;
 }
+div.figs {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 figure {
   display: inline-block;
 }
@@ -56,13 +62,15 @@ footer {
   height: auto;
 }
 .half {
-  width: 45%;
-  height: auto;
-  margin: 1rem;
+  display: block;
+  width: auto;
+  max-width: 45%;
+  height: 15rem;
+  margin: 0.5rem;
 }
 .half > img {
-  width: 100%;
-  height: auto;
+  height: 85%;
+  width: auto;
 }
 img {
   border: 1px darkgray solid;
