@@ -47,6 +47,9 @@ figcaption {
   text-align: center;
   font-style: italic;
 }
+.firstCellRight td:nth-child(1) {
+  text-align: right;
+}
 .floatright {
   float: right;
   margin: 1rem 0 1rem 1rem;
@@ -54,8 +57,15 @@ figcaption {
   max-width: 340px;
   height: auto;
 }
-.floatright > img {
+.floatright > img, .floatrightsm > img {
   width: 100%;
+  height: auto;
+}
+.floatrightsm {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+  width: 25%;
+  max-width: 212px;
   height: auto;
 }
 footer {
