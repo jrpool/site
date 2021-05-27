@@ -25,6 +25,11 @@ body.card {
 body.cardlet {
   font-size: 1.5rem;
 }
+caption {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-style: italic;
+}
 code {
   font-family: sans-serif;
   color: #191610;
@@ -97,6 +102,22 @@ q:after {
 }
 q:before {
   content: open-quote;
+}
+table {
+  border-collapse: collapse;
+}
+tbody td {
+  border: 1px gray solid;
+}
+tbody th {
+  padding-right: 1rem;
+  text-align: right;
+}
+td, th {
+  padding: 0 0.5rem;
+}
+thead th {
+  padding-bottom: 1rem;
 }
 ul.refs > li > a {
   font-weight: 600;
