@@ -32,7 +32,7 @@ caption {
 }
 code {
   font-family: sans-serif;
-  color: #191610;
+  color: #832703;
 }
 div.figs {
   margin-bottom: 1rem;
@@ -107,16 +107,25 @@ p.summary {
 q {
   quotes: '“' '”';
 }
+pre {
+  white-space: pre-wrap;
+}
 q:after {
   content: close-quote;
 }
 q:before {
   content: open-quote;
 }
+.secondCellRight td:nth-child(2) {
+  text-align: right;
+}
 table {
   border-collapse: collapse;
 }
-tbody td {
+table.allBorder th {
+  padding-bottom: 0;
+}
+table.allBorder th, table.allBorder td, tbody td {
   border: 1px gray solid;
 }
 tbody th {
