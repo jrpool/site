@@ -72,6 +72,9 @@ footer {
   margin-top: 3rem;
   border-top: 1px solid black;
 }
+.fourthCellRight td:nth-child(4) {
+  text-align: right;
+}
 .fullwidth {
   width: 100%;
   height: auto;
