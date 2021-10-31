@@ -126,7 +126,7 @@ q:before {
   text-align: right;
 }
 table {
-  max-width: 70rem;
+  max-width: 70rem !important;
   border-collapse: collapse;
 }
 table.allBorder th {
