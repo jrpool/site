@@ -138,6 +138,9 @@ tbody th {
   padding-right: 1rem;
   text-align: right;
 }
+tbody.thSmaller > tr > th {
+  font-size: 1.2rem;
+}
 td, th {
   padding: 0 0.5rem;
 }
