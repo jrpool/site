@@ -14,7 +14,7 @@ a:active {
 }
 body {
   margin: 0 5% auto 5%;
-  max-width: 50rem;
+  max-width: 60rem;
   font-size: 1.25rem;
   font-family: serif;
   background-color: #f3f4f2;
@@ -126,7 +126,6 @@ q:before {
   text-align: right;
 }
 table {
-  max-width: 70rem !important;
   border-collapse: collapse;
 }
 table.allBorder th {
@@ -144,9 +143,6 @@ td, th {
 }
 thead th {
   padding-bottom: 1rem;
-}
-tr {
-  max-width: 70rem;
 }
 ul.refs > li > a {
   font-weight: 600;
