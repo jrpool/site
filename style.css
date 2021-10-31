@@ -145,6 +145,9 @@ td, th {
 thead th {
   padding-bottom: 1rem;
 }
+tr {
+  max-width: 70rem;
+}
 ul.refs > li > a {
   font-weight: 600;
 }
