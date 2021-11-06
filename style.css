@@ -140,6 +140,7 @@ tbody th {
 }
 tbody.linkSmaller a {
   font-size: 1.15rem;
+  font-weight: normal;
 }
 td, th {
   padding: 0 0.5rem;
