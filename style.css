@@ -138,7 +138,7 @@ tbody th {
   padding-right: 1rem;
   text-align: right;
 }
-tbody.thSmaller > tr > th {
+tbody.linkSmaller a {
   font-size: 1.15rem;
 }
 td, th {
