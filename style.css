@@ -5,6 +5,14 @@
   outline: solid 0.2rem #00f;
   outline-offset: 0.2rem;
 }
+.a11yDeficits tbody th, .a11yDeficits thead th:nth-child(1) {
+  padding-right: 1rem;
+  text-align: right;
+}
+.a11yDeficits thead th:not(:nth-child(1)) {
+  padding-left: 1rem;
+  text-align: left;
+}
 a:hover {
   background-color: #ccc;
 }
@@ -134,15 +142,11 @@ table.allBorder th {
 table.allBorder th, table.allBorder td, tbody td {
   border: 1px gray solid;
 }
-tbody th {
-  padding-right: 1rem;
-  text-align: right;
-}
 tbody.linkSmaller a {
   font-size: 1.15rem;
   font-weight: normal;
 }
-td, th {
+td, tbody th, thead th:not(:nth-child(1)) {
   padding: 0 0.5rem;
 }
 thead th {
