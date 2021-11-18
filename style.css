@@ -98,6 +98,9 @@ footer {
   height: 85%;
   width: auto;
 }
+.headersLeft > th {
+  text-align: left;
+}
 img {
   border: 1px darkgray solid;
 }
@@ -155,3 +158,4 @@ thead th {
 ul.refs > li > a {
   font-weight: 600;
 }
+
