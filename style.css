@@ -98,7 +98,7 @@ footer {
   height: 85%;
   width: auto;
 }
-.headersLeft > th {
+.headersLeft > tr > th {
   text-align: left;
 }
 img {
