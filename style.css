@@ -144,6 +144,9 @@ table.allBorder th {
 table.allBorder th, table.allBorder td, tbody td {
   border: 1px gray solid;
 }
+tbody th {
+  text-align: right;
+}
 tbody.linkSmaller a {
   font-size: 1.15rem;
   font-weight: normal;
