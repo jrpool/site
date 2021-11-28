@@ -27,6 +27,13 @@ a:active {
   color: #fff;
   background-color: #006
 }
+.bb:hover {
+  border-color: #006;
+  border-width: 1px;
+  color: #006;
+  background-color: #fff;
+
+}
 body {
   margin: 0 5% auto 5%;
   max-width: 55rem;
