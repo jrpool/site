@@ -23,6 +23,7 @@ a:active {
 .bb {
   min-height: 44px;
   min-width: 44px;
+  font-size: 1.25rem;
   color: #fff;
   background-color: #006
 }
