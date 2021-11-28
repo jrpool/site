@@ -117,6 +117,9 @@ footer {
 img {
   border: 1px darkgray solid;
 }
+.invisible {
+  display: none;
+}
 p.date {
   margin-bottom: 0;
 }
