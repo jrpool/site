@@ -34,6 +34,13 @@ a:active {
   background-color: #fff;
 
 }
+.bl {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.bl:hover {
+  background-color: #ddf;
+}
 body {
   margin: 0 5% auto 5%;
   max-width: 55rem;
