@@ -20,6 +20,12 @@ a:active {
   color: #fff;
   background-color: #00f;
 }
+.bb {
+  min-height: 44px;
+  min-width: 44px;
+  color: #fff;
+  background-color: #006
+}
 body {
   margin: 0 5% auto 5%;
   max-width: 55rem;
@@ -160,4 +166,3 @@ thead th {
 ul.refs > li > a {
   font-weight: 600;
 }
-
