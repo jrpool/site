@@ -141,11 +141,11 @@ p.summary {
   font-weight: 700;
   font-style: italic;
 }
-q {
-  quotes: '“' '”';
-}
 pre {
   white-space: pre-wrap;
+}
+q {
+  quotes: '“' '”';
 }
 q:after {
   content: close-quote;
@@ -180,6 +180,9 @@ td, tbody th, thead th:not(:nth-child(1)) {
 }
 thead th {
   padding-bottom: 1rem;
+}
+.thirdCellRight td:nth-child(3) {
+  text-align: right;
 }
 ul.refs > li > a {
   font-weight: 600;
