@@ -68,12 +68,13 @@ div.figs {
   justify-content: center;
   flex-wrap: wrap;
 }
-figure {
-  display: inline-block;
-}
 figcaption {
   text-align: center;
   font-style: italic;
+}
+figure > img {
+  display: block;
+  margin: 0 auto;
 }
 .firstCellRight td:nth-child(1) {
   text-align: right;
