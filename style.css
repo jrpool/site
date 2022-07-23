@@ -43,13 +43,13 @@ a:active {
 }
 body {
   margin: 0 5% auto 5%;
-  max-width: 55rem;
-  font-size: 1.25rem;
+  max-width: 57rem;
+  font-size: 1.2rem;
   font-family: serif;
   background-color: #f3f4f2;
 }
 body.card {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
 body.cardlet {
   font-size: 1.5rem;
@@ -172,8 +172,8 @@ table.allBorder th, table.allBorder td, tbody td {
 tbody th {
   text-align: right;
 }
-tbody.linkSmaller a {
-  font-size: 1.15rem;
+tbody.linkSmaller th > a {
+  font-size: 1.1rem;
   font-weight: normal;
 }
 td, tbody th, thead th:not(:nth-child(1)) {
