@@ -54,6 +54,9 @@ body.card {
 body.cardlet {
   font-size: 1.5rem;
 }
+body.wide {
+  max-width: unset;
+}
 caption {
   margin: 1rem 0;
   font-weight: bold;
@@ -122,18 +125,21 @@ footer {
 .headersLeft > tr > th {
   text-align: left;
 }
+.home {
+  margin: 1rem auto auto -1rem;
+  font-size: 1.15rem;
+}
 img {
   border: 1px darkgray solid;
 }
 .invisible {
   display: none;
 }
+main p {
+  line-height: 1.5;
+}
 p.date {
   margin-bottom: 0;
-}
-p.home {
-  margin-left: -1rem;
-  font-size: 1.15rem;
 }
 p.moddate {
   margin-top: 0;
