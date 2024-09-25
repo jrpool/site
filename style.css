@@ -44,6 +44,7 @@ a:active {
 body {
   margin: 0 5% auto 5%;
   max-width: 57rem;
+  line-height: 1.5;
   font-size: 1.2rem;
   font-family: serif;
   background-color: #f3f4f2;
@@ -72,12 +73,10 @@ div.figs {
   flex-wrap: wrap;
 }
 figcaption {
-  text-align: center;
   font-style: italic;
 }
 figure > img {
   display: block;
-  margin: 0 auto;
 }
 .firstCellRight td:nth-child(1) {
   text-align: right;
@@ -126,17 +125,19 @@ footer {
   text-align: left;
 }
 .home {
-  margin: 1rem auto auto -1rem;
+  margin-left: -1rem;
   font-size: 1.15rem;
 }
-img {
+img, pre {
+  padding: 0.25rem;
   border: 1px darkgray solid;
 }
 .invisible {
   display: none;
 }
-main p {
-  line-height: 1.5;
+.mostwidth {
+  width: 75%;
+  height: auto;
 }
 p.date {
   margin-bottom: 0;
